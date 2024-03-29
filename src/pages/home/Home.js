@@ -1,20 +1,26 @@
 import React from 'react'
 import "./Home.css"
+import {home} from "../../static"
 function Home() {
-  return (
-    <div className='home'>
+  let productItems = home?.map(el => (
+    <div className='home'style={{background:`url(${el.bg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
         <div className="container">
-          <div className="home__wrapper">
-             <h1 className="home__title">
-                MacBook Air
+        <div key={el.id} className="home__wrapper" >
+              <h1 className="home__title">
+            {el.title}
              </h1>
-             <p className="home__text">Lean.Mean.M3.machine</p>
+             <p className="home__text">{el.text}</p>
              <div className="form__wrapper">
-              <button className="home__btn">Learn more</button>
-              <button className="home__btn">Buy</button>
+              <button className="home__btn">{el.link}</button>
+              <button className="home__btn">{el.link1}</button>
              </div>
           </div>
         </div>
+    </div>
+  ))
+  return (
+    <div className="Home">
+        {productItems}
     </div>
   )
 }
