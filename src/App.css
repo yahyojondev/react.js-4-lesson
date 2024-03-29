@@ -19,3 +19,7 @@
   margin: auto;
   font-size: 40px;
 }
+.iphone,.watch,.vision{
+  background-color: #000;
+  color: white;
+}

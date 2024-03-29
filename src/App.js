@@ -17,11 +17,11 @@ function App() {
       <Routes>
         <Route path='/'element={<Home/>}/>
         <Route path='/store'element={<Store/>}/>
+        <Route path='/mac'element={<Mac/>}/>
         <Route path='/ipad'element={<Ipad/>}/>
         <Route path='/iphone'element={<Iphone/>}/>
         <Route path='/watch'element={<Watch/>}/>
         <Route path='/vision'element={<Vision/>}/>
-        <Route path='/mac'element={<Mac/>}/>
       </Routes>
     </div>
   );
