@@ -2,11 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Home from "./pages/home/Home"
 import Store from "./pages/store/Store"
+import Mac from "./pages/mac/Mac"
 import Ipad from "./pages/ipad//Ipad"
 import Iphone from "./pages/iphone/Iphone"
 import Watch from "./pages/watch/Watch"
 import Vision from "./pages/vision/Vision"
-import Mac from "./pages/mac/Mac"
 import {Routes , Route } from "react-router-dom"
 import Navbar from './components/Navbar/Navbar';
 
