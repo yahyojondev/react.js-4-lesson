@@ -2,7 +2,7 @@ import React from 'react'
 
 function Watch() {
   return (
-    <div>Watch</div>
+    <div className='watch'>Watch</div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Vision() {
   return (
-    <div>Vision</div>
+    <div className='vision'>Vision</div>
   )
 }
 

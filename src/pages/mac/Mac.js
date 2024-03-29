@@ -2,7 +2,7 @@ import React from 'react'
 
 function Mac() {
   return (
-    <div>Mac</div>
+    <div className='mac'>Mac</div>
   )
 }
 

@@ -2,7 +2,14 @@ import React from 'react'
 
 function Store() {
   return (
-    <div>Store</div>
+  
+    <div className="store">
+      <div className="container">
+        <div className="store__wrapper">
+          <h1 className="store__title">Store.The best way to buy the products you love</h1>
+        </div>
+      </div>
+    </div>
   )
 }
 
