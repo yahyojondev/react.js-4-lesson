@@ -3,7 +3,7 @@ import { visionproduct } from '../../static'
 
 function Vision() {
   let visionitem = visionproduct?.map(el=>(
-  <div className="vision" style={{background:`url(${el.bg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
+  <div  key={el.id} className="vision" style={{background:`url(${el.bg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
         <div className="container">
           <div className="vision__wrapper" >
               <img className='vision__img' src={el.img} alt="" />

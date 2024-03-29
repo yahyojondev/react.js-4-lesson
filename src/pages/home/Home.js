@@ -3,7 +3,7 @@ import "./Home.css"
 import {home} from "../../static"
 function Home() {
   let productItems = home?.map(el => (
-    <div className='home'style={{background:`url(${el.bg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
+    <div key={el.id} className='home'style={{background:`url(${el.bg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
         <div className="container">
         <div key={el.id} className="home__wrapper" >
               <h1 className="home__title">

@@ -3,7 +3,7 @@ import {macproduct} from "../../static"
 
 function Mac() {
   let macitem = macproduct?.map(el => (
-    <div className="mac">
+    <div key={el.id} className="mac">
          <div className="container">
             <div className="mac__wrapper">
               <div className="mac__top">

@@ -3,7 +3,7 @@ import { ipadproduct } from '../../static'
 
 function Ipad() {
   let ipaditem = ipadproduct?.map(el=>(
-     <div className="mac">
+     <div key={el.id} className="mac">
          <div className="container">
             <div className="mac__wrapper">
               

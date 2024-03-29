@@ -2,8 +2,8 @@ import React from 'react'
 import { watchproduct } from '../../static'
 
 function Watch() {
-  let watchitem = watchproduct?.map(el =>(
-     <div className="mac">
+  let watchitem = watchproduct?.map(el => (
+     <div key={el.id} className="mac">
          <div className="container">
             <div className="mac__wrapper">
               <div className="mac__top">

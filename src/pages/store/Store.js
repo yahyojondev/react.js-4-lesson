@@ -3,7 +3,7 @@ import {storeproduct} from "../../static"
 
 function Store() {
   let storeitem = storeproduct?.map(el => (
-         <div className="store">
+         <div key={el.id} className="store">
       <div className="container">
          <div className="store__wrapper">
             <div className="store__top">
